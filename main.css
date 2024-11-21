@@ -86,6 +86,9 @@ nav a {
 }
 .Home{
    height: 60vh;
+   position: sticky;
+   top: 0;
+   z-index: 10;
 }
 .Home img{
     width: 100%;
@@ -96,7 +99,7 @@ nav a {
 section::before{
     content: '';
     background: linear-gradient(rgba(0, 0, 0, 0.896), rgba(0, 0, 0, 0.691));
-    inset: 0 0 100vh 0;
+    inset: 0 0 0 0;
     position: absolute;
 }
 @media screen and (max-width:600px) {
@@ -107,7 +110,7 @@ section::before{
         height: 40vh;
     }
     section::before{
-        inset: 0 0 100vh 0;
+        inset: 0 0 60vh 0;
     }
 }
 main {
