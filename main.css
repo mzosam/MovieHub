@@ -89,6 +89,7 @@ nav a {
    position: sticky;
    top: 0;
    z-index: 10;
+   box-shadow: 0 0 40px rgb(0, 0, 0);
 }
 .Home img{
     width: 100%;
