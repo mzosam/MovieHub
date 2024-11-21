@@ -110,9 +110,6 @@ section::before{
     .Home img{
         height: 40vh;
     }
-    section::before{
-        inset: 0 0 60vh 0;
-    }
 }
 main {
     padding: 40px 20px;
