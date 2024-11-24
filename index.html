@@ -250,16 +250,18 @@
             display.src = image.src;
         }
 
-
+        
         function playVideo(url){
-            if(videoElement.style.display === 'none'){
-                videoElement.style.display = 'block';
-                videoElement.src = url;
-            }
-            else{
-                videoElement.style.display = "none";  
-            }
-        }
+           if(videoElement.style.display === 'none' || videoElement.style.display === '') {
+            videoElement.style.display = 'block';
+            videoElement.src = url;               
+        } 
+        else {
+            videoElement.style.display = "none";  
+            videoElement.src = '';                
+    }
+}
+
     
     </script>
 </body>
