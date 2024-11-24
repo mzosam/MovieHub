@@ -27,6 +27,9 @@ iframe{
     top: 0;
     display: none;
 }
+.front:hover iframe{
+    display:none;
+}
 
 form {
     display: inline-flex;
