@@ -250,13 +250,16 @@
             display.src = image.src;
         }
 
-        
+        document.getElementbyTagName("main");
         function playVideo(url){
            if(videoElement.style.display === 'none' || videoElement.style.display === '') {
             videoElement.style.display = 'block';
             videoElement.src = url;               
-        } 
-        else {
+           } 
+        else if(main.clicked){
+            videoElement.style.display = none;
+        }
+           else {
             videoElement.style.display = "none";  
             videoElement.src = '';                
     }
