@@ -141,3 +141,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media screen and (max-width:600px) {
+    .fa-chevron-left,
+    .fa-chevron-right{
+        display: none !important;
+    }
+}
